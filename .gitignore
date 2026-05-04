@@ -1,34 +1,25 @@
-# Gradle files
+# Build outputs
+/build/
+/app/build/
+/captures/
+
+# Gradle
 .gradle/
-build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+.gradletasknamecache
 
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
-*.iml
+# Android Studio / IntelliJ
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+*.iml
+local.properties
+.cxx/
 
-# Keystore files
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Keystores — never commit
 *.jks
 *.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
