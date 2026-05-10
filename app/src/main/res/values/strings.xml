@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PocketLinux</string>
+
+    <!-- Termux banners -->
+    <string name="termux_not_installed">Termux is not installed.\nPocketLinux requires Termux from F-Droid (not the Play Store).</string>
+    <string name="install_termux">Get Termux on F-Droid</string>
+    <string name="permission_needed">Missing permission: RUN_COMMAND.\nOpen Termux → Settings → Allow Run Command.</string>
+    <string name="grant_permission">Open Termux Settings</string>
+
+    <!-- Permission dialog -->
+    <string name="permission_dialog_title">Enable Run Command</string>
+    <string name="permission_dialog_message">In Termux: go to Settings → Allow Run Command from Other Apps and enable it. Then come back here.</string>
+    <string name="open_settings">Open Settings</string>
+
+    <!-- Distro picker -->
+    <string name="pick_distro">Choose a Linux environment</string>
+    <string name="install">Install</string>
+    <string name="start_desktop">Start Desktop</string>
+
+    <!-- Install confirmation -->
+    <string name="install_confirm_title">Install %s?</string>
+    <string name="install_confirm_message">This will download and configure the environment (%s). Termux will open to show progress.\n\nMake sure you have a Wi-Fi connection and at least 2 GB free storage.</string>
+
+    <!-- Viewer -->
+    <string name="connecting">Connecting to VNC server…</string>
+    <string name="disconnected">Disconnected: %s</string>
+    <string name="connection_failed">Could not connect: %s\nIs the VNC server running?</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="keyboard">Keyboard</string>
+    <string name="ctrl_alt_del">Ctrl+Alt+Del</string>
+    <string name="error_unknown_profile">Unknown Linux profile — please reinstall.</string>
+</resources>
